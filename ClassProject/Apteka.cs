@@ -43,6 +43,13 @@ namespace ClassProject
             }
             Console.WriteLine($"Сумма стоимости всех лекарств: {sum} руб.");
         }
+        public void ShowMeds()
+        {
+            foreach (var variable in medicines)
+            {
+                Console.WriteLine($"{variable.name}, цена: {variable.price} руб.");
+            }
+        }
     }
     public class Medicines
     {
