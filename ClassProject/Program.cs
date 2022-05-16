@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 
-namespace ClassProject
+namespace Apteka
 {
     class Program
     {
@@ -13,6 +13,7 @@ namespace ClassProject
             apt1.Add(new Medicines { name = "Гевискон", price = 900f });
             apt1.Add(new Medicines { name = "Парацетамол", price = 150f });
             WriteLine("-----------------");
+            WriteLine("Лекарства в аптеке:");
             apt1.ShowMeds();
             WriteLine("-----------------");
             apt1.DetectExpensiveMedicines();

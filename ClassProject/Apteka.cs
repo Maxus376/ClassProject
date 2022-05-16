@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassProject
+namespace Apteka
 {
     public class Apteka
     {
@@ -50,10 +50,5 @@ namespace ClassProject
                 Console.WriteLine($"{variable.name}, цена: {variable.price} руб.");
             }
         }
-    }
-    public class Medicines
-    {
-        public string name { get; set; }
-        public float price { get; set; } 
     }
 }
